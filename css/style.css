@@ -1,0 +1,166 @@
+*,
+body,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    size: 62.5%;
+}
+
+/* estilização do header */
+header {
+    background-color: white;
+    width: 90vw;
+    height: 40vh;
+}
+
+header img {
+    width: 3rem;
+    height: 3rem;
+}
+
+header button {
+    border: none;
+    background-color: white;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* ============================================================================= */
+
+/* estilização do botao de pesquisar e titulo*/
+#pesquisar {
+    width: 40rem;
+    height: 1.9rem;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: transparent;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+.button1 {
+    display: flex;
+    padding: 1.2rem;
+    gap: 0.6rem;
+    align-items: center;
+    color: #105718;
+    border: 1px solid black;
+    height: 2rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 14.8rem;
+}
+
+.button1 i {
+    display: flex;
+    border: none;
+    height: 2rem;
+    border-radius: 5px;
+    margin-top: 17px;
+}
+
+h1 {
+    color: #105718;
+    font-size: 4.1rem;
+}
+/* ============================================================================================ */
+/* estilização dos cards e do background */
+
+main {
+background-image: url(../images/FUNDO_2.jpg);
+background-position: center ;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.card{
+    border: 0.1rem solid #469145;
+    margin-top: 6rem;
+    margin: 2rem;
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttonPages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    padding: 0.1rem;
+}
+
+.buttonPages li {
+    margin: 0.5rem;
+}
+
+.statusColor {
+    border-radius: 50%;
+    width: 0.7rem;
+    height: 0.7rem;
+    margin-right: 5px;
+    
+}
+
+.stausGreen {
+    background-color: #56CD42;
+    
+}
+
+.statusRed {
+    background-color: #CD4242;
+}
+
+.stausGray {
+    background-color: #BBBBBB;
+}
+
+.pTextStatus{
+    display: flex;
+    align-items: center;
+}
+
+/* ============================================================================================ */
+/* estilização do footer */
+footer {
+    background-color: #151916;
+    height: 14rem;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.ptext{
+    margin-top: 5rem;
+}
+
+.divCreditos{
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.ptext, .divCreditos {
+    color: #469145;
+}
+
+span {
+    color: white;
+}
