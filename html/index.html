@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/index.js"></script>
-
 </head>
 
 <body>
@@ -32,28 +31,9 @@
         </section>
     </header>
     <main>
-        <section class="container-fluid ">
+        <section class="container">
             <div class="row" id="cardcontainer">
-                <!-- <div class="col-4">
-                    <div class="col">
-                        <div class="card">
-                            <img src="${character.image}" class="card-img-top col">
-                            <div class="card-body col">
-                                <h2>${character.name}</h2>
-                                <div class="pTextStatus">
-                                    <div class="statusColor ${statusColorClass}"></div> ${character.status} -
-                                    ${character.species}
-                                </div>
-                                <p class="pTitulo">last known location:</p>
-                                <p class="pText">${character.location.name}</p>
-                                <p class="pTitulo">Last Episode:</p>
-                                <p class="pText">${lastEpisodeName}</p>
-                            </div>
-                        </div>
-                    </div> -->
 
-
-                </div>
             </div>>
         </section>
         <section>
@@ -81,10 +61,10 @@
         function oneCharacters() {
             const seach = document.getElementById("pesquisar")
             const filter = seach.value.toLowerCase()
-            let cards = document.getElementsByClassName("cards");
-
+            let cards = document.getElementsByClassName("card");
+            console.log(cards)
             Array.from(cards).forEach(card => {
-
+                
                 const name = card.getElementsByTagName("h2")[0].textContent.toLowerCase();
 
                 if (name.includes(filter)) {
@@ -93,7 +73,9 @@
                     card.style.display = "none";
                 }
             })
+            
         }
+        
     </script>
 </body>
 

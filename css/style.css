@@ -10,7 +10,7 @@ html {
 /* estilização do header */
 header {
     background-color: white;
-    width: 90vw;
+    width: 100%;
     height: 40vh;
 }
 
@@ -70,27 +70,60 @@ h1 {
     color: #105718;
     font-size: 4.1rem;
 }
+
 /* ============================================================================================ */
 /* estilização dos cards e do background */
 
 main {
-background-image: url(../images/FUNDO_2.jpg);
-background-position: center ;
-background-repeat: no-repeat;
-background-size: 100%;
+    background-image: url(../images/FUNDO_2.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-.card{
+body {
+    background-color: #252525;
+}
+
+.card {
     border: 0.1rem solid #469145;
-    margin-top: 6rem;
-    margin: 2rem;
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    height: 500px;
+    width: 300px;
 }
 
-.card-body{
+.card-body {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    /* padding: 2rem; */
+}
+
+.card-body h2 {
+    margin-left: 1.5rem;
+    font-size: 2.2rem;
+}
+
+.textCard {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    margin-left: 1.4rem;
+    justify-content: flex-start;
+}
+
+/* texto dos cards */
+
+.pTitulo {
+    margin-left: 0.2rem;
+    margin-top: 0.8rem;
+    font-size: 1rem;
+}
+
+.ptext {
+    font-size: 0.5rem;
+    /* margin-left: 2rem; */
 }
 
 .buttonPages {
@@ -110,12 +143,12 @@ background-size: 100%;
     width: 0.7rem;
     height: 0.7rem;
     margin-right: 5px;
-    
+
 }
 
 .stausGreen {
     background-color: #56CD42;
-    
+
 }
 
 .statusRed {
@@ -126,9 +159,12 @@ background-size: 100%;
     background-color: #BBBBBB;
 }
 
-.pTextStatus{
+.pTextStatus {
     display: flex;
     align-items: center;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
 }
 
 /* ============================================================================================ */
@@ -136,20 +172,21 @@ background-size: 100%;
 footer {
     background-color: #151916;
     height: 14rem;
+    width: 100%;
 }
 
-.footerContainer{
+.footerContainer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
+
 }
 
-.ptext{
+.ptext {
     margin-top: 5rem;
 }
 
-.divCreditos{
+.divCreditos {
     display: flex;
     margin-top: 4rem;
     margin-bottom: 5rem;
@@ -157,7 +194,8 @@ footer {
     justify-content: center;
 }
 
-.ptext, .divCreditos {
+.ptext,
+.divCreditos {
     color: #469145;
 }
 
