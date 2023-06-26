@@ -91,9 +91,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-
-
-
 function previousPage() {
     if (page > 1) {
         page--;

@@ -15,12 +15,12 @@
 
 <body>
     <header>
-        <button onclick="location.reload()"><img src="../images/RICK_MORTY_ICON.png" alt=""></button>
+        <button class="vibrate-3" onclick="location.reload()"><img src="../images/RICK_MORTY_ICON.png" alt=""></button>
         <section>
             <div class="container text-center cardsContainer">
                 <div class="row">
                     <div class="col-12 ">
-                        <h1>API de Rick and Morty</h1>
+                        <h1 class="scale-in-top">API de Rick and Morty</h1>
                     </div>
                     <div class="col-7 button1">
                         <input type="text" id="pesquisar" placeholder="Pesquise">
@@ -38,12 +38,14 @@
         </section>
         <section>
             <ul class="pagination buttonPages ">
-                <li class="page-item"><a class="page-link bg-success text-white" onclick="previousPage()">Previous</a>
+                <li class="page-item"><button class="page-link bg-success text-white"
+                        onclick="previousPage()">Previous</button>
                 </li>
-                <li class="page-item"><a class="page-link bg-success text-white" onclick="nextPage()">Next</a></li>
+                <li class="page-item"><button class="page-link bg-success text-white" onclick="nextPage()">Next</button>
+                </li>
             </ul>
             <div>
-                <img src="../images/FUNDO_2.1.jpg" alt="" srcset="">
+                <img src="../images/FUNDO_2.1.jpg" alt="" srcset="" class="kenburns-right">
             </div>
         </section>
         <section>
@@ -54,10 +56,11 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            
+
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal" aria-label="Close">Close</button>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"
+                                aria-label="Close">Close</button>
                         </div>
                     </div>
                 </div>

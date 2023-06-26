@@ -7,6 +7,243 @@ html {
     size: 62.5%;
 }
 
+/* ===================================================================== */
+/* Animações */
+
+/* .text-focus-in {
+    -webkit-animation: text-focus-in 2s 1s 5 para a frente;
+    animation: text-focus-in 2s 1s 5 para a frente;
+} */
+
+/* @-webkit-keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+} */
+.scale-in-top {
+    -webkit-animation: scale-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-top 10s 1s 5 cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes scale-in-top {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+        opacity: 1;
+    }
+}
+
+@keyframes scale-in-top {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+        opacity: 1;
+    }
+}
+/* ================================================================================== */
+
+/* animação da logo do rick and morty */
+.vibrate-3 {
+    -webkit-animation: vibrate-3 1s linear 30;
+    animation: vibrate-3 1s linear 30;
+}
+
+@-webkit-keyframes vibrate-3 {
+    0% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+
+    10% {
+        -webkit-transform: translate(-2px, -2px);
+        transform: translate(-2px, -2px);
+    }
+
+    20% {
+        -webkit-transform: translate(2px, -2px);
+        transform: translate(2px, -2px);
+    }
+
+    30% {
+        -webkit-transform: translate(-2px, 2px);
+        transform: translate(-2px, 2px);
+    }
+
+    40% {
+        -webkit-transform: translate(2px, 2px);
+        transform: translate(2px, 2px);
+    }
+
+    50% {
+        -webkit-transform: translate(-2px, -2px);
+        transform: translate(-2px, -2px);
+    }
+
+    60% {
+        -webkit-transform: translate(2px, -2px);
+        transform: translate(2px, -2px);
+    }
+
+    70% {
+        -webkit-transform: translate(-2px, 2px);
+        transform: translate(-2px, 2px);
+    }
+
+    80% {
+        -webkit-transform: translate(-2px, -2px);
+        transform: translate(-2px, -2px);
+    }
+
+    90% {
+        -webkit-transform: translate(2px, -2px);
+        transform: translate(2px, -2px);
+    }
+
+    100% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+}
+
+@keyframes vibrate-3 {
+    0% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+
+    10% {
+        -webkit-transform: translate(-2px, -2px);
+        transform: translate(-2px, -2px);
+    }
+
+    20% {
+        -webkit-transform: translate(2px, -2px);
+        transform: translate(2px, -2px);
+    }
+
+    30% {
+        -webkit-transform: translate(-2px, 2px);
+        transform: translate(-2px, 2px);
+    }
+
+    40% {
+        -webkit-transform: translate(2px, 2px);
+        transform: translate(2px, 2px);
+    }
+
+    50% {
+        -webkit-transform: translate(-2px, -2px);
+        transform: translate(-2px, -2px);
+    }
+
+    60% {
+        -webkit-transform: translate(2px, -2px);
+        transform: translate(2px, -2px);
+    }
+
+    70% {
+        -webkit-transform: translate(-2px, 2px);
+        transform: translate(-2px, 2px);
+    }
+
+    80% {
+        -webkit-transform: translate(-2px, -2px);
+        transform: translate(-2px, -2px);
+    }
+
+    90% {
+        -webkit-transform: translate(2px, -2px);
+        transform: translate(2px, -2px);
+    }
+
+    100% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+}
+/* =============================================================================== */
+
+/* animação da imagem de fundo */
+.kenburns-right {
+    -webkit-animation: kenburns-right 3s 1s 2;
+    animation: kenburns-right 3s 1s 5;
+}
+
+@-webkit-keyframes kenburns-right {
+    0% {
+        -webkit-transform: scale(1) translate(0, 0);
+        transform: scale(1) translate(0, 0);
+        -webkit-transform-origin: 84% 50%;
+        transform-origin: 84% 50%;
+    }
+
+    100% {
+        -webkit-transform: scale(1.25) translateX(20px);
+        transform: scale(1.25) translateX(20px);
+        -webkit-transform-origin: right;
+        transform-origin: right;
+    }
+}
+
+@keyframes kenburns-right {
+    0% {
+        -webkit-transform: scale(1) translate(0, 0);
+        transform: scale(1) translate(0, 0);
+        -webkit-transform-origin: 84% 50%;
+        transform-origin: 84% 50%;
+    }
+
+    100% {
+        -webkit-transform: scale(1.25) translateX(20px);
+        transform: scale(1.25) translateX(20px);
+        -webkit-transform-origin: right;
+        transform-origin: right;
+    }
+}
+/* ============================================================================ */
+
 /* estilização do header */
 header {
     background-color: white;
@@ -74,13 +311,6 @@ h1 {
 /* ============================================================================================ */
 /* estilização dos cards e do background */
 
-/* main {
-    background-image: url(../images/FUNDO_2.jpg);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: contain;
-} */
-
 img {
     width: 100vw;
 }
@@ -115,8 +345,6 @@ body {
     flex-direction: column;
     margin-left: 1.4rem;
     justify-content: center;
-    /* margin-top: 1rem; */
-    /* margin-bottom: 9rem; */
 }
 
 /* texto dos cards */
@@ -127,12 +355,12 @@ body {
     /* font-size: 1rem; */
 }
 
-.ptext {
-    /* font-size: 0.5rem; */
-    /* margin-left: 2rem; */
-}
+/* .ptext {
+    font-size: 0.5rem; 
+    margin-left: 2rem;
+} */
 
-p{
+p {
     margin: 0;
 
 }
@@ -175,7 +403,7 @@ p{
     align-items: center;
     /* margin-bottom: 0.1rem; */
     margin-left: 1.5rem;
-    
+
 }
 
 /* ============================================================================================ */
