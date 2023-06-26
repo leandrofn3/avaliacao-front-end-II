@@ -247,7 +247,7 @@ html {
 /* estilização do header */
 header {
     background-color: white;
-    width: 100%;
+    width: 100vw;
     height: 40vh;
 }
 
@@ -411,7 +411,7 @@ p {
 footer {
     background-color: #151916;
     height: 14rem;
-    width: 100%;
+    width: 100vw;
 }
 
 .footerContainer {
