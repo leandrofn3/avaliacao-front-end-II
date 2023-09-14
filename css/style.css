@@ -10,38 +10,6 @@ html {
 /* ===================================================================== */
 /* Animações */
 
-/* .text-focus-in {
-    -webkit-animation: text-focus-in 2s 1s 5 para a frente;
-    animation: text-focus-in 2s 1s 5 para a frente;
-} */
-
-/* @-webkit-keyframes text-focus-in {
-    0% {
-        -webkit-filter: blur(12px);
-        filter: blur(12px);
-        opacity: 0;
-    }
-
-    100% {
-        -webkit-filter: blur(0px);
-        filter: blur(0px);
-        opacity: 1;
-    }
-}
-
-@keyframes text-focus-in {
-    0% {
-        -webkit-filter: blur(12px);
-        filter: blur(12px);
-        opacity: 0;
-    }
-
-    100% {
-        -webkit-filter: blur(0px);
-        filter: blur(0px);
-        opacity: 1;
-    }
-} */
 .scale-in-top {
     -webkit-animation: scale-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: scale-in-top 10s 1s 5 cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -354,11 +322,6 @@ body {
     margin-top: 0.7rem;
     /* font-size: 1rem; */
 }
-
-/* .ptext {
-    font-size: 0.5rem; 
-    margin-left: 2rem;
-} */
 
 p {
     margin: 0;
