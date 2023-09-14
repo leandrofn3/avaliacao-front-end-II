@@ -6,4 +6,4 @@
 <h4>Confira na imagem abaixo, um exemplo de como ficou.</h4>
 <img src="./images/print-tela.png" alt="tela" >
 <hr>
-<p>Obrigado espero que goste!</p>
+<p>OBRIGADO ESPERO QUE GOSTE!!!</p>
